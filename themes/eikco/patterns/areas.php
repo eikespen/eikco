@@ -29,8 +29,8 @@
 
 		<!-- wp:column -->
 		<div class="wp-block-column">
-			<!-- wp:cover {"url":"https://picsum.photos/seed/eikco-quesada/1200/900","dimRatio":30,"overlayColor":"ink","isUserOverlayColor":true,"minHeight":440,"style":{"border":{"radius":"2px"}}} -->
-			<div class="wp-block-cover" style="border-radius:2px;min-height:440px"><span aria-hidden="true" class="wp-block-cover__background has-ink-background-color has-background-dim-30 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Ciudad Quesada" src="https://picsum.photos/seed/eikco-quesada/1200/900" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+			<!-- wp:cover {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ciudad_Quesada_01.jpg/1280px-Ciudad_Quesada_01.jpg","dimRatio":40,"overlayColor":"ink","isUserOverlayColor":true,"minHeight":560,"style":{"border":{"radius":"2px"}}} -->
+			<div class="wp-block-cover" style="border-radius:2px;min-height:560px"><span aria-hidden="true" class="wp-block-cover__background has-ink-background-color has-background-dim-40 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Ciudad Quesada" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ciudad_Quesada_01.jpg/1280px-Ciudad_Quesada_01.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"0.6875rem","textTransform":"uppercase","letterSpacing":"0.22em"},"color":{"text":"#f1ece0"}},"fontFamily":"sans"} -->
 				<p class="has-text-align-center has-text-color has-sans-font-family" style="color:#f1ece0;font-size:0.6875rem;letter-spacing:0.22em;text-transform:uppercase">Where most clients land</p>
 				<!-- /wp:paragraph -->
@@ -44,10 +44,10 @@
 
 		<!-- wp:column -->
 		<div class="wp-block-column">
-			<!-- wp:cover {"url":"https://picsum.photos/seed/eikco-marquesa/1200/900","dimRatio":30,"overlayColor":"ink","isUserOverlayColor":true,"minHeight":440,"style":{"border":{"radius":"2px"}}} -->
-			<div class="wp-block-cover" style="border-radius:2px;min-height:440px"><span aria-hidden="true" class="wp-block-cover__background has-ink-background-color has-background-dim-30 has-background-dim"></span><img class="wp-block-cover__image-background" alt="La Marquesa" src="https://picsum.photos/seed/eikco-marquesa/1200/900" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+			<!-- wp:cover {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Campo_de_Golf_La_Marquesa.jpg/1280px-Campo_de_Golf_La_Marquesa.jpg","dimRatio":40,"overlayColor":"ink","isUserOverlayColor":true,"minHeight":560,"style":{"border":{"radius":"2px"}}} -->
+			<div class="wp-block-cover" style="border-radius:2px;min-height:560px"><span aria-hidden="true" class="wp-block-cover__background has-ink-background-color has-background-dim-40 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Campo de Golf La Marquesa" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Campo_de_Golf_La_Marquesa.jpg/1280px-Campo_de_Golf_La_Marquesa.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"0.6875rem","textTransform":"uppercase","letterSpacing":"0.22em"},"color":{"text":"#f1ece0"}},"fontFamily":"sans"} -->
-				<p class="has-text-align-center has-text-color has-sans-font-family" style="color:#f1ece0;font-size:0.6875rem;letter-spacing:0.22em;text-transform:uppercase">Quieter, greener</p>
+				<p class="has-text-align-center has-text-color has-sans-font-family" style="color:#f1ece0;font-size:0.6875rem;letter-spacing:0.22em;text-transform:uppercase">Quieter, greener, golf</p>
 				<!-- /wp:paragraph -->
 				<!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"2rem","fontWeight":"400","fontStyle":"italic","letterSpacing":"0"},"color":{"text":"#ffffff"}},"fontFamily":"serif"} -->
 				<h3 class="wp-block-heading has-text-align-center has-text-color has-serif-font-family" style="color:#ffffff;font-style:italic;font-size:2rem;font-weight:400;letter-spacing:0">La Marquesa</h3>
@@ -59,8 +59,8 @@
 
 		<!-- wp:column -->
 		<div class="wp-block-column">
-			<!-- wp:cover {"url":"https://picsum.photos/seed/eikco-fiesta/1200/900","dimRatio":30,"overlayColor":"ink","isUserOverlayColor":true,"minHeight":440,"style":{"border":{"radius":"2px"}}} -->
-			<div class="wp-block-cover" style="border-radius:2px;min-height:440px"><span aria-hidden="true" class="wp-block-cover__background has-ink-background-color has-background-dim-30 has-background-dim"></span><img class="wp-block-cover__image-background" alt="La Fiesta" src="https://picsum.photos/seed/eikco-fiesta/1200/900" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+			<!-- wp:cover {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Ciudad_Quesada_02.jpg/1280px-Ciudad_Quesada_02.jpg","dimRatio":40,"overlayColor":"ink","isUserOverlayColor":true,"minHeight":560,"style":{"border":{"radius":"2px"}}} -->
+			<div class="wp-block-cover" style="border-radius:2px;min-height:560px"><span aria-hidden="true" class="wp-block-cover__background has-ink-background-color has-background-dim-40 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Southern Costa Blanca coast near Guardamar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Ciudad_Quesada_02.jpg/1280px-Ciudad_Quesada_02.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"0.6875rem","textTransform":"uppercase","letterSpacing":"0.22em"},"color":{"text":"#f1ece0"}},"fontFamily":"sans"} -->
 				<p class="has-text-align-center has-text-color has-sans-font-family" style="color:#f1ece0;font-size:0.6875rem;letter-spacing:0.22em;text-transform:uppercase">Closer to the sea</p>
 				<!-- /wp:paragraph -->
