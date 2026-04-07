@@ -3,43 +3,28 @@
  * Title: Hero
  * Slug: eikco/hero
  * Categories: eikco, featured
- * Description: Full-width hero with headline, subhead, CTAs.
+ * Description: Left-aligned editorial hero. Paragraph-led, no background image, no button grid.
  * Keywords: hero, header, front
  * Block Types: core/post-content
  */
 ?>
-<!-- wp:cover {"overlayColor":"contrast","isUserOverlayColor":true,"dimRatio":35,"minHeight":82,"minHeightUnit":"vh","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40);min-height:82vh">
-	<span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-40 has-background-dim"></span>
-	<img class="wp-block-cover__image-background" alt="" src="https://images.unsplash.com/photo-1533638717811-3aa30dec2f89?w=2000&q=80" data-object-fit="cover"/>
-	<div class="wp-block-cover__inner-container">
-		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","contentSize":"900px"}} -->
-		<div class="wp-block-group">
+<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
 
-			<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem","textTransform":"uppercase","letterSpacing":"0.18em"},"color":{"text":"#e7e1d1"}}} -->
-			<p class="has-text-color" style="color:#e7e1d1;font-size:0.9rem;letter-spacing:0.18em;text-transform:uppercase">Ciudad Quesada · Costa Blanca</p>
-			<!-- /wp:paragraph -->
+	<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.8125rem","textTransform":"uppercase","letterSpacing":"0.08em"},"elements":{"link":{"color":{"text":"var:preset|color|subtle"}}}},"textColor":"subtle","fontFamily":"mono"} -->
+	<p class="has-subtle-color has-text-color has-link-color has-mono-font-family" style="font-size:0.8125rem;letter-spacing:0.08em;text-transform:uppercase">Ciudad Quesada · Costa Blanca · Since 2022</p>
+	<!-- /wp:paragraph -->
 
-			<!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"clamp(2.75rem, 5vw + 1rem, 5rem)","lineHeight":"1.05"},"color":{"text":"#faf8f3"}},"fontFamily":"serif"} -->
-			<h1 class="wp-block-heading has-text-color has-serif-font-family" style="color:#faf8f3;font-size:clamp(2.75rem, 5vw + 1rem, 5rem);line-height:1.05">Buying a home in Spain, without the guesswork.</h1>
-			<!-- /wp:heading -->
+	<!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"clamp(2.75rem, 5vw + 1rem, 5.25rem)","lineHeight":"1.02","fontWeight":"500","letterSpacing":"-0.02em"},"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}}} -->
+	<h1 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40);font-size:clamp(2.75rem, 5vw + 1rem, 5.25rem);font-weight:500;letter-spacing:-0.02em;line-height:1.02">I'm an independent buyer's agent in Ciudad&nbsp;Quesada.</h1>
+	<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.2rem","lineHeight":"1.6"},"color":{"text":"#f1ece0"}}} -->
-			<p class="has-text-color" style="color:#f1ece0;font-size:1.2rem;line-height:1.6">Independent, local expertise on your side. We represent you, the buyer — not the seller. No commission from you, ever.</p>
-			<!-- /wp:paragraph -->
+	<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.25rem","lineHeight":"1.55"}}} -->
+	<p style="font-size:1.25rem;line-height:1.55">Everyone who works in Spanish real estate is paid by the seller. That means there is almost nobody whose job is to look out for <em>you</em>, the person actually writing the cheque. That's the job I do — independently, locally, and without taking a single euro in commission from the buyer. Here's what that means in practice, how I get paid, and why it matters.</p>
+	<!-- /wp:paragraph -->
 
-			<!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
-			<div class="wp-block-buttons">
-				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/viewing-request">Request a viewing</a></div>
-				<!-- /wp:button -->
-				<!-- wp:button {"className":"is-style-outline","style":{"color":{"text":"#faf8f3"},"border":{"color":"#faf8f3"}}} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-text-color has-border-color wp-element-button" style="border-color:#faf8f3;color:#faf8f3" href="/how-it-works">How it works</a></div>
-				<!-- /wp:button -->
-			</div>
-			<!-- /wp:buttons -->
-		</div>
-		<!-- /wp:group -->
-	</div>
-</div>
-<!-- /wp:cover -->
+	<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9375rem"},"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
+	<p style="margin-top:var(--wp--preset--spacing--40);font-size:0.9375rem"><a href="/how-it-works">Read how it works →</a> &nbsp;&nbsp; <a href="/viewing-request">Request a viewing →</a></p>
+	<!-- /wp:paragraph -->
+</section>
+<!-- /wp:group -->

@@ -1,44 +1,50 @@
-<!-- wp:group {"tagName":"footer","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
-<footer class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)">
-	<!-- wp:columns {"align":"wide"} -->
+<!-- wp:group {"tagName":"footer","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|40"},"border":{"top":{"color":"var:preset|color|hairline","width":"1px"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
+<footer class="wp-block-group alignfull has-base-background-color has-background" style="border-top-color:var(--wp--preset--color--hairline);border-top-width:1px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)">
+
+	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->
 	<div class="wp-block-columns alignwide">
-		<!-- wp:column {"width":"40%"} -->
-		<div class="wp-block-column" style="flex-basis:40%">
-			<!-- wp:site-title {"level":0,"fontFamily":"serif","fontSize":"large","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}}} /-->
-			<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.95rem","lineHeight":"1.6"}}} -->
-			<p style="font-size:0.95rem;line-height:1.6">Buyer's agent for property purchases in Ciudad Quesada, Spain. Independent guidance — no commission from the buyer.</p>
+
+		<!-- wp:column {"width":"50%"} -->
+		<div class="wp-block-column" style="flex-basis:50%">
+			<!-- wp:site-title {"level":0,"fontFamily":"serif","fontSize":"large","style":{"typography":{"fontWeight":"500","letterSpacing":"-0.005em"},"elements":{"link":{"color":{"text":"var:preset|color|ink"}}}}} /-->
+
+			<!-- wp:paragraph {"style":{"typography":{"fontSize":"1rem","lineHeight":"1.65"},"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"textColor":"subtle"} -->
+			<p class="has-subtle-color has-text-color" style="margin-top:var(--wp--preset--spacing--20);font-size:1rem;line-height:1.65">Independent buyer's agent for property purchases in Ciudad Quesada, Spain. No commission from the buyer.</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
 
 		<!-- wp:column -->
 		<div class="wp-block-column">
-			<!-- wp:heading {"level":4,"fontSize":"medium"} -->
-			<h4 class="wp-block-heading has-medium-font-size">Explore</h4>
-			<!-- /wp:heading -->
-			<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontSize":"0.95rem"},"spacing":{"blockGap":"var:preset|spacing|20"}}} /-->
+			<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.75rem","textTransform":"uppercase","letterSpacing":"0.12em"}},"textColor":"subtle","fontFamily":"mono"} -->
+			<p class="has-subtle-color has-text-color has-mono-font-family" style="font-size:0.75rem;letter-spacing:0.12em;text-transform:uppercase">Navigate</p>
+			<!-- /wp:paragraph -->
+			<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontSize":"0.9375rem"},"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"var:preset|spacing|20"}},"elements":{"link":{"color":{"text":"var:preset|color|ink"},":hover":{"color":{"text":"var:preset|color|accent"}}}}}} /-->
 		</div>
 		<!-- /wp:column -->
 
 		<!-- wp:column -->
 		<div class="wp-block-column">
-			<!-- wp:heading {"level":4,"fontSize":"medium"} -->
-			<h4 class="wp-block-heading has-medium-font-size">Contact</h4>
-			<!-- /wp:heading -->
-			<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.95rem","lineHeight":"1.8"}}} -->
-			<p style="font-size:0.95rem;line-height:1.8">+47 464 20 719<br>hello@eik.es<br>Ciudad Quesada, Spain</p>
+			<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.75rem","textTransform":"uppercase","letterSpacing":"0.12em"}},"textColor":"subtle","fontFamily":"mono"} -->
+			<p class="has-subtle-color has-text-color has-mono-font-family" style="font-size:0.75rem;letter-spacing:0.12em;text-transform:uppercase">Contact</p>
+			<!-- /wp:paragraph -->
+			<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9375rem","lineHeight":"1.75"},"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} -->
+			<p style="margin-top:var(--wp--preset--spacing--20);font-size:0.9375rem;line-height:1.75"><a href="mailto:espen@eik.es">espen@eik.es</a><br>+47 464 20 719<br>Ciudad Quesada, Spain</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
 	</div>
 	<!-- /wp:columns -->
 
-	<!-- wp:separator {"backgroundColor":"contrast-2","className":"is-style-wide"} -->
-	<hr class="wp-block-separator has-text-color has-contrast-2-color has-alpha-channel-opacity has-contrast-2-background-color has-background is-style-wide"/>
-	<!-- /wp:separator -->
-
-	<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"0.85rem"}}} -->
-	<p class="has-text-align-center" style="font-size:0.85rem">© Homerun Marketing S.L. (B56734270) — Eik &amp; Co. All rights reserved.</p>
-	<!-- /wp:paragraph -->
+	<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|40"}},"border":{"top":{"color":"var:preset|color|hairline","width":"1px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+	<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--hairline);border-top-width:1px;margin-top:var(--wp--preset--spacing--40);padding-top:var(--wp--preset--spacing--40)">
+		<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.75rem","letterSpacing":"0.02em"}},"textColor":"subtle","fontFamily":"mono"} -->
+		<p class="has-subtle-color has-text-color has-mono-font-family" style="font-size:0.75rem;letter-spacing:0.02em">© Homerun Marketing S.L. · B56734270</p>
+		<!-- /wp:paragraph -->
+		<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.75rem","letterSpacing":"0.02em"}},"textColor":"subtle","fontFamily":"mono"} -->
+		<p class="has-subtle-color has-text-color has-mono-font-family" style="font-size:0.75rem;letter-spacing:0.02em">Eik & Co · Ciudad Quesada</p>
+		<!-- /wp:paragraph -->
+	</div>
+	<!-- /wp:group -->
 </footer>
 <!-- /wp:group -->
