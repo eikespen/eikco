@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+vendor/
+
+# wp-env
+.wp-env.override.json
+
+# Build output
+build/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+debug.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# WordPress uploads (never commit)
+wp-content/uploads/
+
+# PHP
+*.phar

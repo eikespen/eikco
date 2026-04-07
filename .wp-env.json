@@ -1,0 +1,17 @@
+{
+	"core": "WordPress/WordPress#6.5",
+	"phpVersion": "8.2",
+	"themes": [
+		"./themes/eikco"
+	],
+	"plugins": [],
+	"config": {
+		"WP_DEBUG": true,
+		"WP_DEBUG_LOG": true,
+		"WP_DEBUG_DISPLAY": false,
+		"WP_ENVIRONMENT_TYPE": "local"
+	},
+	"mappings": {
+		"wp-content/themes/eikco": "./themes/eikco"
+	}
+}
