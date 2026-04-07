@@ -51,13 +51,13 @@ jobs:
           echo "Total file count:"
           find themes/eikco -type f | wc -l
 
-      - name: Deploy via SFTP
+      - name: Deploy via FTPS
         if: ${{ github.event_name == 'push' || inputs.dry_run != true }}
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.SFTP_HOST }}
-          port: 22
-          protocol: sftp
+          port: 21
+          protocol: ftps
           username: ${{ secrets.SFTP_USERNAME }}
           password: ${{ secrets.SFTP_PASSWORD }}
           # Only upload the theme folder — nothing else in the repo
