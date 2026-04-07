@@ -8,15 +8,15 @@
  * Block Types: core/post-content
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
+<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)">
 
 	<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"0.6875rem","textTransform":"uppercase","letterSpacing":"0.22em"},"elements":{"link":{"color":{"text":"var:preset|color|subtle"}}}},"textColor":"subtle","fontFamily":"sans"} -->
 	<p class="has-text-align-center has-subtle-color has-text-color has-link-color has-sans-font-family" style="font-size:0.6875rem;letter-spacing:0.22em;text-transform:uppercase">Ciudad Quesada · Costa Blanca · Since 2022</p>
 	<!-- /wp:paragraph -->
 
-	<!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"clamp(2.5rem, 4.5vw + 1rem, 4.75rem)","lineHeight":"1.1","fontWeight":"400","letterSpacing":"-0.005em"},"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}},"fontFamily":"serif"} -->
-	<h1 class="wp-block-heading has-text-align-center has-serif-font-family" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40);font-size:clamp(2.5rem, 4.5vw + 1rem, 4.75rem);font-weight:400;letter-spacing:-0.005em;line-height:1.1">An independent buyer's agent for&nbsp;Ciudad&nbsp;Quesada.</h1>
+	<!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"clamp(1.875rem, 2.25vw + 1rem, 2.875rem)","lineHeight":"1.2","fontWeight":"400","letterSpacing":"-0.005em"},"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|30"}}},"fontFamily":"serif"} -->
+	<h1 class="wp-block-heading has-text-align-center has-serif-font-family" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--30);font-size:clamp(1.875rem, 2.25vw + 1rem, 2.875rem);font-weight:400;letter-spacing:-0.005em;line-height:1.2">An independent buyer's agent for Ciudad Quesada and the southern Costa Blanca.</h1>
 	<!-- /wp:heading -->
 
 	<!-- wp:group {"layout":{"type":"constrained","contentSize":"640px"}} -->
