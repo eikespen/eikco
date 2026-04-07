@@ -124,14 +124,16 @@ Things the current site doesn't do that we should:
 | Stray "Spaniabolig" reference on `/english` | Remove |
 | Form section in heavy beige | Lighter, more integrated section style |
 
-## Open questions for you
+## Decisions (locked in)
 
-These are the things I can't decide on my own:
+| Question | Decision |
+| --- | --- |
+| Languages | **English only.** No Polylang. The Norwegian site is being replaced, not preserved. |
+| Spaniabolig references | **Delete entirely.** Leftover from another project. |
+| Brand assets | **Design from scratch.** Logo, color system, typography all to be proposed and approved. |
+| Existing 3 articles | **Translate to English and import** as starting content for the new blog. |
 
-1. **Brand colors** — I scaffolded Eik Green + Terracotta + Sand. Do you actually have brand colors, or am I free to propose? The current site has none.
-2. **Logo** — is the "Eik&Co" wordmark on the current site the official logo, and do you have an SVG/source file for it? If yes, send it. If no, we should remake it.
-3. **Photography** — do you have a library of your own photos (Quesada, areas, properties, you), or do we need to commission/source? Unsplash placeholders are not a long-term plan.
-4. **Spaniabolig** — I saw a stray reference on `/english`. Is Spaniabolig a related brand of yours, a competitor, or leftover content from another project that should be deleted?
-5. **Norwegian + English, or English only?** You said "should be in English as well" — does that mean *both* languages, or *English instead of Norwegian*? This affects whether we install Polylang from day one.
-6. **Testimonials** — do you have more than just Kenneth Henriksen's? If yes, get them ready.
-7. **The 3 existing articles** — should we translate them to English and import to the new site, or start fresh with new content?
+## Still open (to discuss as we go)
+
+- **Photography** — do you have a library of your own photos, or do we need to commission/source? Unsplash placeholders are not a long-term plan.
+- **Testimonials** — do you have more than just Kenneth Henriksen's? If yes, send them.
